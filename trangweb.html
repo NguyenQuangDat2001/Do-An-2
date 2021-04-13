@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="menu-main">
+        <div class="menu">
+            <div class="menu-left">
+                <img src="image/logo.png" alt="">
+            </div>
+            <div class="menu-right" id="MenuRight">
+                <ul>
+                    <li><a href="#">Mục 1</a></li>
+                    <li><a href="#">Mục 2</a></li>
+                    <li><a href="#">Mục 3</a></li>
+                </ul>
+                <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="slide">
+            <img src="image/ảnh1.jpg">
+            <div class="architect">
+                <span>BR</span>Architects
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="projects">
+            <div class="tieude">
+                <h1>Projects</h1>
+            </div>
+            <div class="row">
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 6.jpg">
+                    <div class="tieude">áo juvetus</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 3.jpg">
+                    <div class="tieude">áo real</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 4.jpg">
+                    <div class="tieude">áo MU</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 5.jpg">
+                    <div class="tieude">áo MC</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 6.jpg">
+                    <div class="tieude">áo juvetus</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 3.jpg">
+                    <div class="tieude">áo real</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 4.jpg">
+                    <div class="tieude">áo MU</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 5.jpg">
+                    <div class="tieude">áo MC</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 6.jpg">
+                    <div class="tieude">áo juvetus</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 3.jpg">
+                    <div class="tieude">áo real</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 4.jpg">
+                    <div class="tieude">áo MU</div>
+                </div>
+                <div class="col-3 col-s-6 box-img">
+                    <img src="image/ảnh 5.jpg">
+                    <div class="tieude">áo MC</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        function myFunction() {
+              var x = document.getElementById("MenuRight");
+              debugger;
+              if (x.className === "menu-right") {
+                x.className += " responsive";
+              } else {
+                x.className = "menu-right";
+              }
+            }
+    </script>
+</body>
+</html>
